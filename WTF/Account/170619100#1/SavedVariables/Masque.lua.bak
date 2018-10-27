@@ -1,0 +1,248 @@
+
+MasqueDB = {
+	["profileKeys"] = {
+		["Cernarius - 燃烧之刃"] = "Cernarius-mUI",
+		["浠浠的番茄酱 - 燃烧之刃"] = "Default",
+		["Garonah - 罗宁"] = "Default",
+		["Tyrander - 燃烧之刃"] = "Default",
+		["我是蒙牛 - 燃烧之刃"] = "Default",
+		["浠浠的海洋球 - 燃烧之刃"] = "Default",
+		["Calia - 燃烧之刃"] = "Default",
+		["浠浠的面包师 - 燃烧之刃"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+		["Cernarius-mUI"] = {
+			["Groups"] = {
+				["WeakAuras_猛虎之怒"] = {
+					["Gloss"] = 0.6,
+					["SkinID"] = "MerathilisUI",
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["Inherit"] = false,
+				},
+				["WeakAuras_斜掠"] = {
+					["Gloss"] = 0.6,
+					["SkinID"] = "MerathilisUI",
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["Inherit"] = false,
+				},
+				["ElvUI_Consolidated Buffs"] = {
+					["Gloss"] = 0.6,
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "MerathilisUI",
+				},
+				["ElvUI_Buffs"] = {
+					["Gloss"] = 0.6,
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "MerathilisUI",
+				},
+				["WeakAuras_重度醉拳"] = {
+					["Gloss"] = 0.6,
+					["SkinID"] = "MerathilisUI",
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["Inherit"] = false,
+				},
+				["WeakAuras_铁骨酒"] = {
+					["Gloss"] = 0.6,
+					["SkinID"] = "MerathilisUI",
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["Inherit"] = false,
+				},
+				["WeakAuras"] = {
+					["Gloss"] = 0.6,
+					["SkinID"] = "MerathilisUI",
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["Inherit"] = false,
+				},
+				["ElvUI_ActionBars"] = {
+					["Gloss"] = 0.6,
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "MerathilisUI",
+				},
+				["WeakAuras_奥术智慧"] = {
+					["Gloss"] = 0.6,
+					["Inherit"] = false,
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "MerathilisUI",
+				},
+				["ElvUI_Debuffs"] = {
+					["Gloss"] = 0.6,
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "MerathilisUI",
+				},
+				["ElvUI"] = {
+					["Gloss"] = 0.6,
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "MerathilisUI",
+				},
+				["WeakAuras_移花接木"] = {
+					["Gloss"] = 0.6,
+					["Inherit"] = false,
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "MerathilisUI",
+				},
+				["WeakAuras_中度醉拳"] = {
+					["Gloss"] = 0.6,
+					["SkinID"] = "MerathilisUI",
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["Inherit"] = false,
+				},
+				["WeakAuras_new"] = {
+					["Gloss"] = 0.6,
+					["SkinID"] = "MerathilisUI",
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["Inherit"] = false,
+				},
+				["ElvUI_Stance Bar"] = {
+					["Gloss"] = 0.6,
+					["SkinID"] = "MerathilisUI",
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["Inherit"] = false,
+				},
+				["WeakAuras_狂暴"] = {
+					["Gloss"] = 0.6,
+					["SkinID"] = "MerathilisUI",
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["Inherit"] = false,
+				},
+				["ElvUI_Pet Bar"] = {
+					["Gloss"] = 0.6,
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "MerathilisUI",
+				},
+				["Masque"] = {
+					["Gloss"] = 0.6,
+					["Colors"] = {
+						["Normal"] = {
+							1, -- [1]
+							0.49, -- [2]
+							0.04, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "MerathilisUI",
+				},
+			},
+		},
+	},
+}

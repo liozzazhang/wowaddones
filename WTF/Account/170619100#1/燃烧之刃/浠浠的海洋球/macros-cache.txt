@@ -1,0 +1,19 @@
+VER 3 0100000000000003 "敏捷" "INV_MISC_QUESTIONMARK"
+#showtooltips 湍流合剂
+/equip [noequipped:海妖的炼金石]海妖的炼金石
+/cast [noexists: 湍流合剂] 湍流合剂
+/equip [noequipped:暗月套牌：封锁]暗月套牌：封锁
+END
+VER 3 0100000000000001 "群嘲" "INV_MISC_QUESTIONMARK"
+/target 玄牛雕像
+/cast [@cursor] 玄牛雕像
+/cast [noharm]嚎镇八方
+/targetlasttarget [help]
+/click TotemFrameTotem1 RightButton
+END
+VER 3 0100000000000002 "耐力药水" "INV_MISC_QUESTIONMARK"
+#showtooltips 广阔天涯合剂
+/equip [noequipped:海妖的炼金石]海妖的炼金石
+/cast [noexists: 广阔天涯合剂] 广阔天涯合剂 
+/equip [noequipped:暗月套牌：封锁]暗月套牌：封锁
+END

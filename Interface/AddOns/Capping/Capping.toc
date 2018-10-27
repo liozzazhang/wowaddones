@@ -1,0 +1,19 @@
+## Interface: 80000
+## Version: v8.0.11
+## Title: |cffC495DDEUI|rCapping
+## Title-zhCN: |cffC495DDEUI|r战场助手Capping
+## Title-zhTW: |cffC495DDEUI|r戰場助手Capping
+## Author: Funkydude
+## Notes: Battleground timers and other PvP features.
+## Notes-zhCN: 战场计时和其它特性, 设置命令/capping.
+## Notes-zhTW: 戰場計時和其他特性, 設置命令/capping.
+## SavedVariables: CappingSettings
+## X-Revision: ElvUI
+
+embeds.xml
+locales.xml
+modules.xml
+
+
+
+

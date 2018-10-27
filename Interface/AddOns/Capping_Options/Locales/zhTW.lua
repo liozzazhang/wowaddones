@@ -1,0 +1,47 @@
+
+if GetLocale() ~= "zhTW" then return end
+local _, mod = ...
+local L = mod.L
+
+-- Options
+L.general = "一般設置"
+L.test = "測試"
+L.lock = "鎖定"
+L.barIcon = "條圖示"
+L.showTime = "顯示時間"
+L.fillBar = "反轉條"
+L.font = "字體"
+L.fontSize = "字體尺寸"
+L.monochrome = "黑白文本"
+L.outline = "邊框"
+L.none = "無"
+L.thin = "細"
+L.thick = "粗"
+L.texture = "材質"
+L.barSpacing = "條間距"
+L.barWidth = "條寬度"
+L.barHeight = "條高度"
+L.alignText = "文本對齊"
+L.alignTime = "時間對齊"
+L.alignIcon = "計時條圖示對齊"
+L.left = "左"
+L.center = "中"
+L.right = "右"
+L.growUpwards = "向上增長"
+L.textColor = "文本顏色"
+L.allianceBars = "聯盟計時條"
+L.hordeBars = "部落計時條"
+L.queueBars = "佇列計時條"
+L.otherBars = "其他計時條"
+L.barBackground = "條背景"
+
+-- Features
+L.features = "特性"
+L.queueBarsDesc = "啟用顯示你加入佇列和佇列中預估時間的計時條."
+L.barClickDesc = "設置你點擊計時條輸出到聊天框中的特殊資訊. 設置所有的 3 為 'None' 將禁止點擊計時條, 你將能穿透他們."
+L.shiftClick = "Shift-Click"
+L.controlClick = "Control-Click"
+L.altClick = "Alt-Click"
+L.sayChat = "Say Chat"
+L.raidChat = "Group Chat"
+L.clickableBars = "Clickable Bars"

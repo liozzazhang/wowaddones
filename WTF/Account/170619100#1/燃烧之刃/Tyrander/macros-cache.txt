@@ -1,0 +1,82 @@
+VER 3 010000000000000B " " "1309101"
+/施放 混乱之刃
+/施放 涅墨西斯
+END
+VER 3 010000000000000C "  " "1344646"
+#show
+/targetenymy [noharm][dead]
+/cast [talent:2/3]恶魔之咬;[talent:2/2]邪能之刃
+END
+VER 3 010000000000000D "    " "236299"
+#show
+/targetenymy [noharm][dead]
+/cast [talent:5/2]邪能爆发;[talent:5/3]涅墨西斯
+END
+VER 3 010000000000000E "DB_DHHavoc" "INV_Misc_QuestionMark"
+#showtooltip
+/click DB_DHHavoc
+END
+VER 3 010000000000000F "DB_havocsingle" "INV_Misc_QuestionMark"
+#showtooltip
+/click DB_havocsingle
+END
+VER 3 0100000000000002 "坐骑" "132226"
+/RandomMount
+END
+VER 3 0100000000000003 "审判宏" "INV_Misc_QuestionMark"
+#showtooltip 审判 
+/use [@mouseover,harm,nodead] [harm,nodead] [@targettarget,harm,nodead][@focus,harm,nodead][@targettargettarget,harm,nodead] 审判 
+/stopmacro [harm,nodead][targettarget,harm,nodead] 
+/targetenemy 
+/use 审判 
+/targetlasttarget
+END
+VER 3 0100000000000004 "延迟" "134400"
+/console SpellQueueWindow 70
+END
+VER 3 0100000000000006 "打断" "INV_Misc_QuestionMark"
+#showtooltip 吞噬魔法
+/stopcasting 
+/cast [target=mouseover,exists]吞噬魔法;吞噬魔法
+END
+VER 3 0100000000000007 "打断" "INV_Misc_QuestionMark"
+#showtooltip 心灵冰冻
+/stopcasting
+/cast [target=focus,exists] 心灵冰冻;心灵冰冻
+END
+VER 3 0100000000000005 "打断" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,target=focus]心灵冰冻;心灵冰冻
+END
+VER 3 0100000000000010 "摩托车" "134400"
+/mountspecial
+END
+VER 3 0100000000000011 "撕扯" "134400"
+/施放 撕扯
+END
+VER 3 0100000000000012 "模型" "134400"
+.race 10
+.hair 11
+.haircolor 5
+.skin 1
+.face 8
+END
+VER 3 0100000000000008 "欢乐桶" "413587"
+/script SetRaidTarget("mouseover",2)
+/click ExtraActionButton1
+END
+VER 3 0100000000000001 "爆发" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 涅墨西斯
+/use 14
+/use 延时之力药水
+END
+VER 3 0100000000000009 "自动" "135274"
+#showtooltip
+/use 涅墨西斯
+/use 14
+END
+VER 3 010000000000000A "误导" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [pet,target=pet]误导
+END

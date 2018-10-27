@@ -1,0 +1,43 @@
+
+AddOnSkinsDB = {
+	["profileKeys"] = {
+		["Cernarius - 燃烧之刃"] = "Cernarius - 燃烧之刃",
+		["浠浠的面包师 - 燃烧之刃"] = "浠浠的面包师 - 燃烧之刃",
+		["Calia - 燃烧之刃"] = "Calia - 燃烧之刃",
+		["Garonah - 罗宁"] = "Garonah - 罗宁",
+		["我是蒙牛 - 燃烧之刃"] = "我是蒙牛 - 燃烧之刃",
+		["浠浠的海洋球 - 燃烧之刃"] = "Default",
+		["Tyrander - 燃烧之刃"] = "Default",
+		["浠浠的番茄酱 - 燃烧之刃"] = "浠浠的番茄酱 - 燃烧之刃",
+	},
+	["profiles"] = {
+		["浠浠的番茄酱 - 燃烧之刃"] = {
+			["EmbedSystem"] = true,
+			["EmbedMain"] = "Skada",
+		},
+		["Default"] = {
+			["EmbedSystem"] = true,
+			["SkadaBackdrop"] = false,
+			["Auctionator"] = false,
+			["EmbedMain"] = "Skada",
+		},
+		["Garonah - 罗宁"] = {
+		},
+		["我是蒙牛 - 燃烧之刃"] = {
+		},
+		["Calia - 燃烧之刃"] = {
+			["EmbedMain"] = "Skada",
+			["EmbedSystem"] = true,
+			["SkadaBackdrop"] = false,
+		},
+		["浠浠的面包师 - 燃烧之刃"] = {
+			["EmbedSystem"] = true,
+			["EmbedMain"] = "Skada",
+		},
+		["Cernarius - 燃烧之刃"] = {
+			["EmbedMain"] = "Skada",
+			["EmbedSystem"] = true,
+			["Auctionator"] = false,
+		},
+	},
+}

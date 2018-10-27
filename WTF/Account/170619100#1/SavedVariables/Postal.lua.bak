@@ -1,0 +1,65 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Cernarius - 燃烧之刃"] = "Cernarius - 燃烧之刃",
+		["浠浠的番茄酱 - 燃烧之刃"] = "浠浠的番茄酱 - 燃烧之刃",
+		["Garonah - 罗宁"] = "Garonah - 罗宁",
+		["Tyrander - 燃烧之刃"] = "Tyrander - 燃烧之刃",
+		["我是蒙牛 - 燃烧之刃"] = "我是蒙牛 - 燃烧之刃",
+		["浠浠的海洋球 - 燃烧之刃"] = "浠浠的海洋球 - 燃烧之刃",
+		["Calia - 燃烧之刃"] = "Calia - 燃烧之刃",
+		["浠浠的面包师 - 燃烧之刃"] = "浠浠的面包师 - 燃烧之刃",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Calia|燃烧之刃|Horde|112|DEATHKNIGHT", -- [1]
+				"Cernarius|燃烧之刃|Horde|115|DRUID", -- [2]
+				"Garonah|罗宁|Alliance|120|ROGUE", -- [3]
+				"Tyrander|燃烧之刃|Horde|111|DEMONHUNTER", -- [4]
+				"我是蒙牛|燃烧之刃|Horde|110|MONK", -- [5]
+				"浠浠的海洋球|燃烧之刃|Horde|120|MONK", -- [6]
+				"浠浠的番茄酱|燃烧之刃|Horde|110|WARLOCK", -- [7]
+				"浠浠的面包师|燃烧之刃|Horde|117|MAGE", -- [8]
+			},
+		},
+	},
+	["profiles"] = {
+		["Cernarius - 燃烧之刃"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"浠浠的海洋球|燃烧之刃|Horde", -- [1]
+				},
+			},
+		},
+		["浠浠的番茄酱 - 燃烧之刃"] = {
+		},
+		["Garonah - 罗宁"] = {
+		},
+		["Tyrander - 燃烧之刃"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"浠浠的海洋球|燃烧之刃|Horde", -- [1]
+				},
+			},
+		},
+		["我是蒙牛 - 燃烧之刃"] = {
+		},
+		["浠浠的海洋球 - 燃烧之刃"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"乱试佳人|燃烧之刃|Horde", -- [1]
+					"乱试嘉人|燃烧之刃|Horde", -- [2]
+					"浠浠的面包师|燃烧之刃|Horde", -- [3]
+					"Tyrander|燃烧之刃|Horde", -- [4]
+					"佰年孤寂|燃烧之刃|Horde", -- [5]
+					"Cernarius|燃烧之刃|Horde", -- [6]
+				},
+			},
+		},
+		["Calia - 燃烧之刃"] = {
+		},
+		["浠浠的面包师 - 燃烧之刃"] = {
+		},
+	},
+}

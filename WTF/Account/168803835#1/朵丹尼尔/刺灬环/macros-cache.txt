@@ -1,0 +1,42 @@
+VER 3 010000000000000B "卖号" "INV_Misc_QuestionMark"
+/3 出售此5500NQ号 另FQ5000 有ZUG老虎 龙 珠宝 锻造满 非快餐号 价格从低 一心卖号 有意者MMM 已在5.1.7.3出售  南京地区当面交易 饶屏见谅
+END
+VER 3 0100000000000003 "护盾" "INV_Misc_QuestionMark"
+/cast 圣洁护盾
+/cast 圣光审判
+END
+VER 3 0100000000000009 "救赎" "INV_Misc_QuestionMark"
+ #showtooltip /Y 我在救<<%t>> /cast 救赎
+END
+VER 3 0100000000000005 "智慧" "INV_Misc_QuestionMark"
+/cast 智慧圣印
+/cast 强效智慧祝福
+END
+VER 3 0100000000000001 "牺牲" "INV_Misc_QuestionMark"
+/cast 神圣牺牲
+/cast 圣盾术
+END
+VER 3 0100000000000006 "珠宝加工" "INV_Misc_QuestionMark"
+/3 【ZUG龙虎牌】|cffffd000|Htrade:51311:450:450:58000000204ADF2:s7YROqEEBwAhkEHAAAAAEAAAg/BAElAAAAAAAAgAAAAA4SAwEgAISABEQjSCgNIBBCEImgYCGEAOAAgEAFIAICJMVg8QAAA|h[珠宝加工]|h|r价格便宜 ，欢迎各位新老客户光临。
+END
+VER 3 0100000000000002 "神启" "INV_Misc_QuestionMark"
+/cast 神启
+/cast 复仇之怒
+/cast 复苏饰物
+/cast 消融之雪
+END
+VER 3 0100000000000004 "神恩术" "INV_Misc_QuestionMark"
+/cast 神恩术
+/cast 神圣震击
+END
+VER 3 0100000000000007 "老虎" "INV_Misc_QuestionMark"
+/use 迅捷祖利安猛虎
+/Y  厷主娃娃 此人骗卡 大家当心！
+END
+VER 3 0100000000000008 "锻造" "INV_Misc_QuestionMark"
+/3  |cffffd000|Htrade:51300:450:450:58000000204ADF2:2v+2MAjCicMA/FoL5zqyg+hMABAAUAAAfAAAAAAAQGQAAAAAAAQBAA4AAAAAAAAdGQhQAAAIA4s8AAegDAAAw/7H|h[锻造]|h|r 支持各种加工代工，另有冰抗套装可选，代工 防御鞋，欢迎咨询。
+END
+VER 3 010000000000000A "龙" "INV_Misc_QuestionMark"
+/use 拉扎什迅猛龙
+/Y  厷主娃娃 此人骗卡 大家当心！
+END

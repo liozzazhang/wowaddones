@@ -1,0 +1,30 @@
+VER 3 0000000000000008 "BF_Mount" "Ability_Mount_Charger"
+/bfmount
+END
+VER 3 0000000000000009 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [target=mouseover,nomod,exists] 清洁术;  [target=mouseover,exists,mod:ctrl] 清洁术; [target=mouseover,exists,mod:shift] 清洁术
+END
+VER 3 0000000000000001 "ROLL" "Ability_Creature_Cursed_04"
+/ROLL
+END
+VER 3 000000000000000A "一键驱散" "INV_Misc_QuestionMark"
+/stopcasting
+/cast [target=mouseover,nomod,exists] 清洁术;  [target=mouseover,exists,mod:ctrl] 清洁术; [target=mouseover,exists,mod:shift] 清洁术
+END
+VER 3 0000000000000002 "吻" "Spell_Shaman_GiftEarthmother"
+/亲吻
+END
+VER 3 000000000000000B "坐骑" "Ability_Mount_Charger"
+/RandomMount
+END
+VER 3 0000000000000006 "射击" "Spell_Shaman_AncestralAwakening"
+c 
+END
+VER 3 0000000000000007 "生存" "Ability_Druid_EarthandSky"
+/施放 [mod]准备就绪;!自动射击 
+/施放 杀戮命令 
+/castsequence reset=6/alt 黑箭,自动射击,自动射击,自动射击,自动射击,自动射击,自动射击
+/castsequence reset=8/alt 瞄准射击,自动射击,自动射击,自动射击,自动射击,自动射击,自动射击
+/施放 稳固射击 
+END

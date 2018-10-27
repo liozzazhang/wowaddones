@@ -1,0 +1,80 @@
+VER 3 0100000000000013 " " "INV_Misc_QuestionMark"
+#showtooltip 闷棍
+/[combat] startattack
+/cast [nostealth] 潜行 
+#showtooltip 闷棍 
+/cleartarget
+/targetenemy
+/cast 闷棍
+END
+VER 3 0100000000000019 "4单" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=5  暗影之舞, 死亡符记,暗影打击,影分身,暗影打击,暗影打击,刺骨,暗影打击, 暗影之舞
+END
+VER 3 010000000000001B "4双" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=5 消失,死亡符记,暗影打击,影分身,暗影之舞,暗影打击,暗影打击,暗影之舞,暗影打击,暗影打击,刺骨,暗影打击
+END
+VER 3 010000000000001C "6单" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=5 死亡符记,影分身,暗影之舞,暗影打击,暗影打击,刺骨,暗影打击
+END
+VER 3 010000000000001A "6双" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/castsequence reset=5 影分身,暗影之舞,死亡符记,暗影打击,暗影打击,刺骨,暗影打击,暗影之舞,刺骨,暗影打击,暗影打击,刺骨
+END
+VER 3 0100000000000017 "6爆" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=5 暗影之刃,消失,死亡符记,影分身,暗影之舞,暗影打击,刺骨,暗影打击,暗影打击,暗影之舞
+END
+VER 3 010000000000000E "dian" "INV_Misc_QuestionMark"
+#showtooltip 致盲 
+/cast [target=focus,exists]致盲; 致盲
+END
+VER 3 010000000000000D "dian" "INV_Misc_QuestionMark"
+#showtooltip 暗影步 
+/cast [target=focus,exists]暗影步; 暗影步 
+#showtooltip 脚踢
+/cast [target=focus,exists]脚踢; 脚踢
+END
+VER 3 0100000000000003 "影舞标记" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 暗影之舞
+/cast 暗影打击
+/cast 死亡符记
+/cast 延时之力药水
+END
+VER 3 0100000000000006 "普a" "INV_MISC_QUESTIONMARK"
+#showtooltip 阴影月刃
+/cancelaura 潜行
+/startattack
+/施放 死亡符记
+/targetenemy[nodead]
+/castsequence [nochanneling] reset=3/combat 暗影之舞,阴影月刃,袖剑风暴,天降杀机,袖剑风暴,剔骨,消失,暗影之舞,袖剑风暴,刺骨,袖剑风暴,刺骨,袖剑风暴,刺骨,袖剑风暴,刺骨
+END
+VER 3 010000000000001E "秒a" "INV_MISC_QUESTIONMARK"
+#showtooltip 阴影月刃
+/cancelaura 潜行
+/startattack
+/施放 死亡符记
+/targetenemy[nodead]
+/cast 暗影之舞
+/cast 阴影月刃
+/cast 袖剑风暴
+END
+VER 3 0100000000000014 "起手" "INV_MISC_QUESTIONMARK"
+#showtooltip 死亡符记
+/castsequence reset=5 暗影之刃,暗影打击,夜刃,暗影之舞,暗影打击,死亡符记,暗影打击,刺骨,暗影打击,消失,暗影打击,影分身,暗影之舞,暗影打击,暗影打击,刺骨,暗影打击
+END
+VER 3 010000000000001F "闷棍" "INV_MISC_QUESTIONMARK"
+#showtooltip 闷棍 
+/cleartarget 
+/script SetCVar("targetNearestDistance", 30) 
+/targetenemy [harm][nodead] 
+/cast 闷棍
+END
+VER 3 0100000000000007 "隐遁" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 影遁
+/cast 潜行
+END

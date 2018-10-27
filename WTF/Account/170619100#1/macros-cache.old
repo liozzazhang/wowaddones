@@ -1,0 +1,519 @@
+VER 3 000000000000003F " " "INV_Misc_QuestionMark"
+#showtooltip 拳击
+/S 我已打断
+/cast 拳击
+END
+VER 3 0000000000000048 " " "135833"
+/目标 阴暗小鬼
+END
+VER 3 0000000000000047 " " "134325"
+/施放 游侠之网
+/petattack
+END
+VER 3 0000000000000046 " " "338784"
+/script print(IsQuestFlaggedCompleted(44188))
+END
+VER 3 0000000000000044 " " "INV_Misc_QuestionMark"
+#showtooltip 灵魂治愈(稀有技能)
+/Cast [target=player,exists] 灵魂治愈(稀有技能);灵魂治愈(稀有技能)
+END
+VER 3 0000000000000043 " " "135833"
+/RA  YY624413~斗鱼全程直播~个人拾取+R币~150/位！~一场4个，10分钟一场~支付宝 微信都是18321851539，旭东~先转先打，请标记下自己的游戏ID，谢谢！~
+END
+VER 3 0000000000000045 " " "INV_Misc_QuestionMark"
+#showtooltip 爆发
+/Cast [target=focus,exists]爆发 ;爆发
+END
+VER 3 0000000000000042 " " "INV_Misc_QuestionMark"
+#showtooltip 
+/castsequence reset=10 神圣之火,惩击,惩击,惩击,惩击,惩击,惩击
+END
+VER 3 000000000000004C " " "136041"
+/cast [target=mouseover,help][target=target,help,exists][target=player]治疗之触
+END
+VER 3 000000000000004B " " "134400"
+/施放 炽热防御者
+/施放 虔诚光环
+/施放 圣佑术
+END
+VER 3 0000000000000035 " " "INV_Misc_QuestionMark"
+#showtooltip 盾牌猛击
+/cast 怒火聚焦
+/cast 盾牌猛击
+END
+VER 3 0000000000000036 " " "INV_Misc_QuestionMark"
+#showtooltip 英勇投掷
+/施放 英勇投掷
+/施放 拳击
+END
+VER 3 0000000000000037 " " "134400"
+/施放 神圣复仇者
+/施放 复仇之怒
+/施放 圣佑术
+/use 精制恶毒角斗士的板鳞甲护手
+END
+VER 3 0000000000000038 " " "INV_Misc_QuestionMark"
+#showtooltip
+cast[mod:shift,harm][mod:shift,@targettarget]神圣之火;
+[harm][@targettarget]惩击 
+END
+VER 3 0000000000000039 " " "136168"
+/cast 吸血鬼之血
+/cast 符文分流
+END
+VER 3 000000000000003A " " "INV_Misc_QuestionMark"
+#showtooltip 集结呐喊
+/施放 集结呐喊
+/use 治疗石
+/cast 狂暴之怒
+/cast 狂怒回复
+END
+VER 3 000000000000003B " " "INV_Misc_QuestionMark"
+#showtooltip 灭战者
+/cast 灭战者
+/use 光辉之赐
+END
+VER 3 000000000000003D " " "135274"
+/dump IsQuestFlaggedCompleted(44311)
+END
+VER 3 000000000000003E " " "INV_Misc_QuestionMark"
+#showtooltip 英勇投掷
+/cast 英勇投掷
+/cast [equipped:投掷武器] 投掷;射击
+/script UIErrorsFrame:Hide()
+END
+VER 3 0000000000000041 " " "INV_Misc_QuestionMark"
+#showtooltip 战吼
+/施放 天神下凡
+/施放 战吼
+/施放 暴怒
+END
+VER 3 0000000000000040 " " "INV_Misc_QuestionMark"
+#showtooltip 盾墙
+/use 粒子护盾
+/施放 盾墙
+END
+VER 3 0000000000000049 " " "1035047"
+/cast [@cursor] 铁蒺藜
+/petattack
+END
+VER 3 0000000000000051 "  " "135771"
+/cast 活力分流
+/CAST 湮没
+END
+VER 3 0000000000000052 "  " "INV_Misc_QuestionMark"
+#showtooltip 血魔之握
+/Cast [target=player,exists] 血魔之握;血魔之握
+END
+VER 3 0000000000000053 "  " "INV_Misc_QuestionMark"
+#showtooltip 寒冰锁链
+/startattack 
+/cast 寒冰锁链
+END
+VER 3 0000000000000054 "  " "342913"
+/PETATTACK
+/cast 黑暗突变
+END
+VER 3 000000000000004F "  " "135371"
+/startattack
+/cast 脓疮打击
+/use 好战角斗士的胜利徽章
+END
+VER 3 0000000000000050 "  " "237532"
+/target [@focus, exists,harm] 
+/click ActionButton12
+/targetlasttarget 
+/click ActionButton12
+END
+VER 3 000000000000004E "  " "INV_Misc_QuestionMark"
+#showtooltip 黑暗模拟
+/Cast [target=focus,exists]黑暗模拟 ;黑暗模拟
+END
+VER 3 000000000000004D "  " "237530"
+/startattack
+/施放 天灾打击
+/use 好战角斗士的胜利徽章
+END
+VER 3 0000000000000055 "    " "INV_Misc_QuestionMark"
+#showtooltip 鲁莽
+/cast 颅骨战旗
+/cast 浴血奋战
+/cast 鲁莽
+/cast 天神下凡
+/cast 上古屠夫手甲
+END
+VER 3 0000000000000056 "     " "INV_Misc_QuestionMark"
+#showtooltip 暗影之爪
+/Cast [target=focus,exists]暗影之爪 ;暗影之爪
+END
+VER 3 0000000000000057 "  宏" "INV_Misc_QuestionMark"
+#showtooltip 盾牌格挡
+/cast 无视苦痛
+/cast 盾牌格挡
+END
+VER 3 0000000000000058 "  致死" "INV_Misc_QuestionMark"
+#showtooltip 致死打击
+/startattack
+/cast [talent: 5/2]致死打击; [talent: 5/1]致死打击
+/castsequence reset=30 怒火聚焦,怒火聚焦,致死打击,怒火聚焦
+END
+VER 3 0000000000000059 " 。" "132282"
+/cast 怒击
+/cast 英勇打击
+END
+VER 3 000000000000005A " 姿态" "INV_Misc_QuestionMark"
+#showtooltip 
+/use [stance:1]防御姿态;[nostance:1]战斗姿态
+END
+VER 3 000000000000005B " 往死砍" "132148"
+/cast 血性狂怒(种族特长)
+/use 独眼恐惧手甲
+/cast 冰霜之柱
+END
+VER 3 000000000000004A " 最远距离" "611420"
+/console cameraDistanceMaxZoomFactor 2.6
+END
+VER 3 000000000000005C " 爆发" "INV_Misc_QuestionMark"
+#showtooltip 灭战者(神器)
+/cast 天神下凡
+/施放 灭战者(神器)
+END
+VER 3 000000000000005D "." "132333"
+/use 战斗怒吼
+/use 狂暴之怒
+/use 上古屠夫手甲
+END
+VER 3 000000000000005E "/attack" "132342"
+/attack
+/cast 乘胜追击
+END
+VER 3 000000000000005F "0.0" "413582"
+/run DBMHudMap:PlaceRangeMarkerOnPartyMember("timer", "player", 1.5, nil, 0,1,0 ,0.8)
+END
+VER 3 0000000000000069 "1" "134400"
+/console cameraDistanceMaxFactor 2.6 
+END
+VER 3 0000000000000068 "1" "134400"
+/click ExtraActionButton1
+END
+VER 3 000000000000006D "1" "134400"
+/大喊  我自己单吃
+END
+VER 3 0000000000000067 "1" "236303"
+/stopcasting
+/cancelaura 剑刃风暴
+/cast 剑刃风暴
+/use 奇亚诺斯的剑鞘
+END
+VER 3 0000000000000066 "1" "134400"
+/W 淺夏微涼-燃烧之刃 1
+END
+VER 3 0000000000000065 "1" "136009"
+/施放 狂暴之怒
+/施放 命令怒吼
+END
+VER 3 0000000000000064 "1" "134400"
+/click PVPQueueFrameCategoryButton2
+/click ConquestJoinButton
+/click LFDRoleCheckPopupAcceptButton
+/click StaticPopup1Button1
+END
+VER 3 0000000000000060 "1" "134400"
+/targetenemy
+/castsequence reset=8 痛楚,痛楚,痛楚,痛楚,腐蚀之种
+/use [nochanneling]夺魂(神器) 
+END
+VER 3 0000000000000061 "1" "134400"
+/click PVPQueueFrameCategoryButton2
+/click ConquestJoinButton
+/click PVPReadyDialogEnterBattleButton
+/click LFDRoleCheckPopupAcceptButton
+/click StaticPopup1Button1
+END
+VER 3 0000000000000062 "1" "INV_Misc_QuestionMark"
+#showtooltip 巨人打击 
+/stopcasting 
+/startattack 
+/use 巨人打击
+END
+VER 3 0000000000000063 "1" "132109"
+/施放 鲁莽
+/施放 颅骨战旗
+END
+VER 3 000000000000006A "1" "134400"
+#show 暗影之刃
+/click PVPQueueFrameCategoryButton2
+/click ConquestJoinButton
+/click PVPReadyDialogEnterBattleButton
+/click LFDRoleCheckPopupAcceptButton
+/click StaticPopup1Button1
+END
+VER 3 000000000000006C "1" "134400"
+/w 丶頂級娛樂-末日行者 1
+END
+VER 3 000000000000006B "1" "INV_Misc_QuestionMark"
+#showtooltip 狂暴之怒
+/cast 盾牌冲锋
+/cast 狂暴之怒
+/cast 浴血奋战
+/cast 巨龙怒吼
+END
+VER 3 000000000000006F "11" "589118"
+/施放 瓦解怒吼
+/S 111111111111瓦解怒吼
+END
+VER 3 0000000000000070 "11" "132938"
+/施放 拳击
+/S 111111拳击
+END
+VER 3 000000000000006E "11" "134400"
+/click PVPReadyDialogEnterBattleButton
+/run LeaveBattlefield()
+END
+VER 3 0000000000000072 "111" "134400"
+/script ps=" 青山1-7H悬垂堡正在开打 123W起来各系消费，支持包团 白菜价25W 详细M聊 -YY60571717 ";sc=SendChatMe
+END
+VER 3 0000000000000073 "111" "132109"
+/cast 鲁莽
+/cast 颅骨战旗
+/施放 血性狂怒
+/cast 10
+END
+VER 3 0000000000000071 "111" "134400"
+/script ps=" 青山 史诗模式奥格团1-14H 装备5K  1  2  来各系老板  支持包团 1-13包团20 1-14包团30W ！史诗战蝎20 最后一只直播YY60571717";sc=SendChatMessage;
+END
+VER 3 0000000000000074 "1111" "134400"
+/INV 叫我小丶哥哥-埃德萨拉
+/INV 丝诺芮雅-回音山
+/INV 超动感-死亡之翼
+/INV 空门-血色十字军
+END
+VER 3 0000000000000075 "1212" "134400"
+/run LeaveBattlefield()
+END
+VER 3 0000000000000076 "123" "132089"
+/script ps="{鼓掌} 【梵天G团】H地狱火堡垒1-10正在开打 3号面前 可预订4号BOSS  YY10091811 可散买可包团包毕业，。";sc=SendChatMessage;
+END
+VER 3 0000000000000077 "123" "INV_Misc_QuestionMark"
+#showtooltip  战吼
+/cast 战吼
+/cast 天神下凡
+/cast 暴怒
+/cast 奥丁之怒
+END
+VER 3 0000000000000078 "2" "134400"
+/click QueueStatusMinimapButton
+/click DropDownList1Button2
+/click StaticPopup1Button1
+END
+VER 3 0000000000000008 "2" "INV_Misc_QuestionMark"
+/3 老牌工会《十度半》重新整顿，因XD不稳定，特急招 稀有猫D。会内气氛融洽，无亲友团，工会制度严谨，新人需考核，有意者M我详谈。谁来谁知道，扰屏见谅！
+END
+VER 3 0000000000000079 "2" "134400"
+/use 致伤药膏
+END
+VER 3 000000000000007A "2121" "134400"
+/click PVPReadyDialogEnterBattleButton
+/run LFDReadyCheckPopup.YesButton:Click()
+END
+VER 3 000000000000007B "21231" "132089"
+/script T,F=T or 0,F or CreateFrame("frame")if X then print("off") X=nil else print("on") X=function()local t=GetTime()if t-T>60 then SendChatMessage(ps,"channel",nil,5)T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 000000000000007C "22" "134400"
+/run T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then LFDReadyCheckPopup.YesButton:Click()T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 000000000000007D "222" "134400"
+/script T,F=T or 0,F or CreateFrame("frame")if X then print("off") X=nil else print("on") X=function()local t=GetTime()if t-T>25 then SendChatMessage(ps,"channel",nil,6)T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 000000000000007E "222" "134400"
+/script T,F=T or 0,F or CreateFrame("frame")if X then print("off") X=nil else print("on") X=function()local t=GetTime()if t-T>61 then SendChatMessage(ps,"channel",nil,5)T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 0000000000000080 "3" "134400"
+/click QueueStatusMinimapButton
+/click DropDownList1Button3
+/click StaticPopup1Button1
+/click DropDownList1Button2
+/click StaticPopup1Button1
+END
+VER 3 0000000000000081 "3" "134400"
+/click HelpFrameCharacterStuckStuck
+END
+VER 3 000000000000007F "3" "134400"
+#show 嫁祸诀窍
+END
+VER 3 0000000000000082 "4" "134400"
+#show 仇杀
+/run LeaveBattlefield() 
+END
+VER 3 0000000000000083 "4" "134400"
+/run LeaveBattlefield() 
+END
+VER 3 0000000000000084 "5" "134400"
+/use [nocombat,nostealth]!潜行
+/castsequence [stealth,nocombat] reset=30 仇杀,偷袭
+/use [@party1,combat]嫁祸诀窍
+/castsequence [combat] 疾跑,暗影斗篷,消失,闪避,暗影之刃,疾跑,暗影斗篷
+/castsequence reset=target 毁伤,毁伤,破甲,割裂,毁伤,肾击,毁伤,毒伤,毁伤,毁伤,切割,毁伤,破甲,割裂,毁伤,毁伤,毒伤,毁伤,毁伤,割裂
+END
+VER 3 0000000000000085 "a" "INV_Misc_QuestionMark"
+#showtooltip 暗影之舞
+/cast 暗影之舞
+/cast 暗影反射
+/use
+/cast 伏击
+END
+VER 3 0000000000000086 "A " "134400"
+/ SetCVar("targetnearestuseold", 1)
+END
+VER 3 0000000000000087 "a1" "134400"
+/click PVEFrameTab2
+/click PVPQueueFrameCategoryButton2
+/click ConquestJoinButton
+END
+VER 3 0000000000000088 "AG。" "644389"
+/6 20人史诗 AG 1到14 速推。。来各个职业打工。。抱团消费 。传家宝。。。打工带成就MM 坑爹勿扰。。。！~
+END
+VER 3 0000000000000089 "BF_Mount" "132226"
+/6 25H AG 整 团 维 护，扫 尾 团~ 有需求的M聊。~~刷屏见谅！！！千钧一发成就， 库卡隆战蝎优惠中~ 另招各职业 毕业老板~。 刷屏抱歉！！YY 413750 直播
+END
+VER 3 000000000000008A "BF_Mount" "132226"
+/bfmount
+END
+VER 3 000000000000008B "BF_Pet" "236701"
+/BFPET
+END
+VER 3 000000000000008C "biu" "INV_Misc_QuestionMark"
+#showtooltip [nocombat] 迅捷祖利安猛虎;[combat] 冰枪术;
+/dismount [mounted]
+/castrandom [nomounted,nocombat,outdoors,flyable]飞翼守护者,飞天魔像;
+/castrandom [nomounted,nocombat,outdoors] 迅捷祖利安猛虎,库卡隆战狼;
+/cast [combat] 冰枪术;
+END
+VER 3 000000000000008D "daoshu" "134400"
+/dbm pull 10
+END
+VER 3 000000000000008E "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清创生血;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 清创生血
+END
+VER 3 000000000000008F "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清创生血;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 清创生血
+END
+VER 3 0000000000000090 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清创生血;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 清创生血
+END
+VER 3 0000000000000091 "Decursive" "134400"
+/script DecursiveRootTable.Dcr:Println('没有相关技能')
+END
+VER 3 0000000000000092 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清洁术;  [@mouseover,exists,mod:ctrl] 清洁术; [@mouseover,exists,mod:shift] 清洁术
+END
+VER 3 0000000000000033 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 变形术;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 变形术
+END
+VER 3 0000000000000093 "fasdw" "134400"
+/console  cameraDistanceMaxZoomFactor 2.6
+END
+VER 3 000000000000001B "Hand" "INV_Misc_QuestionMark"
+#showtooltip
+/use 10
+END
+VER 3 0000000000000094 "MillHelper" "236229"
+/click MillHelperButton
+END
+VER 3 0000000000000095 "qqqqq" "134400"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 0000000000000096 "SS爆发" "INV_Misc_QuestionMark"
+#showtooltip 黑暗灵魂
+/cast 黑暗灵魂：学识
+/use 10
+/cast [nostance:1]恶魔变形
+/castsequence reset=3 小鬼成群,魔典：恶魔卫士,,混乱之触,灵魂之火
+/cast 恶魔掌控
+END
+VER 3 0000000000000020 "undead" "INV_Misc_QuestionMark"
+#showtooltip 束缚亡灵
+/clearfocus [modifier:alt] 
+/focus [target=focus,noexists];[target=focus,dead] 
+/clearfocus [target=focus,help]
+/cast [target=focus,exists,harm] 束缚亡灵
+END
+VER 3 0000000000000097 "X" "135900"
+/5 《La Ronde》。全新公会团开荒H黑石，招收660+DPS。治疗。活动时间456，8-11.30。
+/2  《La Ronde》。全新公会团开荒H黑石，招收660+DPS。治疗。活动时间456，8-11.30。
+END
+VER 3 0000000000000098 "X" "135900"
+/5 《La Ronde》。全新公会团招收各职业，（地狱火全通带团）。活动时间67，8-11.30。
+/2  《La Ronde》。全新公会团招收各职业，（地狱火全通带团）。活动时间67，8-11.30。
+END
+VER 3 0000000000000099 "XX" "413586"
+/2 H悬垂G团。来X宝打工，老板。装备0.5.1W.2W。来暴力任性老板！！！
+/5 H悬垂G团。来X宝打工，老板。装备0.5.1W.2W。来暴力任性老板！！！
+END
+VER 3 000000000000009A "XXXX" "136103"
+/2 PT黑石。5-10远山，火车开打套装BOSS来消费老板，打工来675+！！！！
+END
+VER 3 0000000000000021 "yy" "ACHIEVEMENT_GUILDPERK_REINFORCE_RANK2"
+/RA YY 24324521
+END
+VER 3 000000000000009B "。" "613535"
+/show 风暴之锤
+/use 上古屠夫手甲
+/use 风暴之锤
+END
+VER 3 000000000000009C "。" "132109"
+/use 鲁莽
+/use 颅骨战旗
+END
+VER 3 000000000000009D "。" "463829"
+/use 集结呐喊
+/use 挫志战旗
+END
+VER 3 000000000000009E "一键购买" "413587"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript ("OnUpdate",X)
+END
+VER 3 000000000000009F "世界BOSS击杀" "644389"
+/run for k, v in pairs({ ["炮舰"] = 32098, ["怒之煞"] = 32099, ["纳拉克"] = 32518, ["乌达斯塔"] = 32519}) do print(format("%s: %s", k, IsQuestFlaggedCompleted(v) and "\124cff00ff00已杀\124r" or "\124cffff0000未杀\124r")) end 
+END
+VER 3 0000000000000022 "伊拉贡" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+/RA 左上：武圣  左中：西门 票 左下：压成
+/RA 右上：阿水  右中：ZMX  咖啡 右下：流星
+END
+VER 3 00000000000000A0 "元素释放" "INV_Misc_QuestionMark"
+#showtooltip 元素冲击 
+/cast [@target,harm][@targettarget,harm][@targettargettarget,harm][@targettargettargettarget,harm]元素冲击
+END
+VER 3 00000000000000A4 "取消钓鱼" "INV_MISC_QUESTIONMARK"
+#showtooltip 钓鱼 
+/script print("设置左键为默认："..SetBinding("BUTTON1","CAMERAORSELECTORMOVE")) 
+/script print("设置右键为默认："..SetBinding("BUTTON2","TURNORACTION")) 
+/equipset cat
+END
+VER 3 00000000000000A1 "变身血精灵" "132226"
+.race 10
+END
+VER 3 0000000000000034 "显示伤害" "INV_SWORD_04"
+/console floatingCombatTextCombatDamage 1
+END
+VER 3 000000000000000D "视野2" "INV_Misc_QuestionMark"
+/script SetCVar("cameraDistanceMax",30)
+END
+VER 3 0000000000000031 "跟随" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/TAR  單純開始
+/跟随
+END
+VER 3 00000000000000A3 "钓鱼" "INV_MISC_QUESTIONMARK"
+#showtooltip 钓鱼 
+/run print("鼠标左键设为钓鱼："..SetBindingSpell("BUTTON1","钓鱼")) 
+/equip 超级捕鱼帽
+/equip 日抛型鱼竿
+END
+VER 3 0000000000000032 "龙息" "SPELL_DEATHKNIGHT_BREATHOFSINDRAGOSA"
+/use 13
+/施放 辛达苟萨之息
+END

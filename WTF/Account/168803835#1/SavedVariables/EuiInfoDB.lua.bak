@@ -1,0 +1,6 @@
+
+playersDB = {
+	["刺灬环-朵丹尼尔"] = {
+	},
+}
+PlayersDBJSON = nil
